@@ -1,0 +1,13 @@
+# smartling.placeholder_format_custom = \{.+?\}
+---
+product: 
+  # first word comment
+    firstword: "en + firstword {name}"
+  # second word comment
+    secondword: "chinese traditional secondword"
+    hello_world: "hello worsld"
+    goodbye_man_new: "goodbye man new"
+  # about x hours comment
+    about_x_hours_count: "{count, plural, one {About 1 hour} other {About {count} hours}}"
+    first_group: "text from first group"
+    key: "this is a very long string oh oh oh"
