@@ -5,6 +5,7 @@ product:
   firstword: 'en + firstword {name}'
   # second word comment
   secondword: 'en + secondword'
+  newstr: 'a new str'
   hello_world: 'hello worsld'
   goodbye_man_new: 'goodbye man new'
   # about x hours comment
