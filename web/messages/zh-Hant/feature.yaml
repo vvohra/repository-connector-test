@@ -5,6 +5,7 @@ product:
     firstword: "EN + firstword {name}"
   # second word comment
     secondword: "updated chinese traditional secondword"
+    whatup: "怎麼了"
     hello_world: "你好worsld"
     goodbye_man_new: "再見男人新"
   # about x hours comment
