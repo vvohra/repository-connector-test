@@ -1,0 +1,26 @@
+{
+    "locales": [
+         {
+             "smartling" : "zh-CN",
+             "application" : "zh-Hans"
+         },
+         {
+             "smartling" : "zh-TW",
+             "application" : "zh-Hant"
+         }
+     ],
+     "resourceSets": [
+         {
+             "type"                      : "yaml",
+             "authorizeContent"          : "false",
+             "pathRegex"                 : "web\\/messages\\/en/(?<path>.*)\\.yaml",
+             "translationPathExpression" : "web/messages/${locale}/${path}.${originalFile.extension}",
+             "translationCommitMessage"  : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
+             "smartlingDirectives"       : [
+                 "smartling.placeholder_format = YAML",
+                 "smartling.placeholder_format_custom = \\{.+?\\}",
+                 "smartling.variants_enabled = true"
+             ]
+         }
+     ]
+}
