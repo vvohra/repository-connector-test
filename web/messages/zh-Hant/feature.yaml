@@ -4,7 +4,7 @@ product:
   # first word comment
     firstword: "en + firstword {name}"
   # second word comment
-    secondword: "chinese traditional secondword"
+    secondword: "updated chinese traditional secondword"
     hello_world: "hello worsld"
     goodbye_man_new: "goodbye man new"
   # about x hours comment
